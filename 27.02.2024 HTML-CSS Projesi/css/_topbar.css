@@ -1,0 +1,119 @@
+.topbar{
+    display: flex;
+    width: 100%;
+}
+
+.topbar-sol{
+    background-color: #23A036;
+    width: 22%;
+    height: 120px;
+    cursor: pointer;
+}
+
+
+.topbar-sol h1{
+    color: #ffc600;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.topbar-sag{
+    width: 78%;
+}
+
+.topbar-sag-ust{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #0a1026;
+}
+
+.topbar-sag-ust a{
+    color: #ffc600;
+}
+
+.sol span{
+    color: #fff;
+    font-size: 14px;
+}
+
+.sol i:first-child{
+    padding-left: 15px;
+}
+
+.sag a{
+    padding: 5px 7px;
+    display: inline-block;
+    transition: .5s all;
+}
+
+.sag a:hover{
+    color: #bd9402;
+}
+.menu {
+    display: flex;
+    padding: 30px 0;
+}
+
+.menu > li{
+    position: relative;
+}
+
+.menu > li > a{
+    padding: 30px 15px;
+    font-weight: bolder;
+}
+
+.menu > li > ul{
+    display: none;
+    position: absolute;
+    width: 150px;
+    border: 1px solid red;
+    background-color: #b8b6b6;
+    padding: 4px 0;
+}
+
+.menu > li li{
+    padding: 10px 5px;
+    background-color: #d1cfcf;
+}
+
+.menu > li > ul a{
+    font-size: 17px;
+
+}
+
+.menu > li:hover ul{
+    
+    display: block;
+}
+
+.menu >li:first-child a{
+    color: #23A036;
+}
+
+.menu >li:hover a{
+    color: #23A036;
+}
+
+.topbar-sag-alt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 14px;
+}
+
+.alt-sag a{
+    font-size: 17px;
+    padding: 10px 30px;
+    background-color: #ffc600;
+    border-radius: 20px;
+}
+
+.alt-sag a:focus{
+    background-color: #bd9402;
+}
